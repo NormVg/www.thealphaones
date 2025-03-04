@@ -161,7 +161,7 @@ const  ProgStore = useProgStore()
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
+  animation: animationOpacity 3000ms forwards ;
 
 }
 
@@ -183,7 +183,7 @@ const  ProgStore = useProgStore()
   margin: 0px 20px;
   /* border: 1px solid gold; */
   margin-bottom: 10px;
-  animation: animationOpacity 3000ms forwards ;
+
 
 }
 
