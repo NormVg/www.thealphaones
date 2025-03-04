@@ -6,26 +6,28 @@ import flow from "../assets/image/FollowUp/flow-aura.png"
 </script>
 
 <template>
-    <div id="aura-box">
-      <div id="aura-box-title-box">
+  <div id="aura-box">
+    <div id="aura-box-title-box">
 
-        <ArrowHeading title="Aura LifeStyle" sub="Sometimes you’ve gotta run before you can walk." BorderWidth="240px"
+      <ArrowHeading title="Aura LifeStyle" sub="Sometimes you’ve gotta run before you can walk." BorderWidth="240px"
         PhoneBorderWidth="300px" />
 
-      </div>
-      <AuraListBox/>
+    </div>
+    <AuraListBox />
 
-      <!-- <AuraListBox/>
+    <!-- <AuraListBox/>
       <MoveNextProg/> -->
 
-      <div id="hb-flow">
+    <div id="hb-flow">
+      <RouterLink to="/#prog-box">
+
         <img :src="flow" alt="">
+      </RouterLink>
     </div>
-    </div>
+  </div>
 </template>
 
 <style scoped>
-
 #hb-flow img {
   animation: floating 4s ease-in-out infinite;
 }
@@ -41,11 +43,8 @@ import flow from "../assets/image/FollowUp/flow-aura.png"
   height: 60px;
 }
 
-#aura-box{
-    height: 100vh;
-    margin-top: 50px;
+#aura-box {
+  height: 100vh;
+  margin-top: 50px;
 }
-
-
-
 </style>

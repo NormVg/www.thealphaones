@@ -9,41 +9,64 @@ import ArrowBorder from './ArrowBorder.vue';
   <div id="nav-bar">
     <div id="nav-item-box">
 
-      <div id="nav-item">
-        Introduction
-        <ArrowBorder :RightPlace="false" :isGrowAnimtion="true"  />
 
-      </div>
+      <RouterLink to="/#intro-box">
+        <div id="nav-item">
 
-      <div id="nav-item">
-        Aura Lifestyle
-        <ArrowBorder :RightPlace="false" :isGrowAnimtion="true" />
+          Introduction
+          <ArrowBorder :RightPlace="false" :isGrowAnimtion="true" />
 
-      </div>
+        </div>
+      </RouterLink>
 
-      <div id="nav-item">
-        Solutions
-        <ArrowBorder :RightPlace="false" :isGrowAnimtion="true" />
+      <RouterLink to="/#aura-box">
 
-      </div>
+        <div id="nav-item">
+          Aura Lifestyle
+          <ArrowBorder :RightPlace="false" :isGrowAnimtion="true" />
 
-      <div id="nav-item">
-        Synergy
-        <ArrowBorder :RightPlace="false" :isGrowAnimtion="true" />
+        </div>
+      </RouterLink>
 
-      </div>
+      <RouterLink to="/#prog-box">
 
-      <div id="nav-item">
-        Journal
-        <ArrowBorder :RightPlace="false" :isGrowAnimtion="true" />
+        <div id="nav-item">
+          Solutions
+          <ArrowBorder :RightPlace="false" :isGrowAnimtion="true" />
 
-      </div>
+        </div>
+      </RouterLink>
 
-      <div id="nav-item">
-        Nexus
-        <ArrowBorder :RightPlace="false" :isGrowAnimtion="true" />
 
-      </div>
+      <!-- <RouterLink to="/#intro-box">
+
+        <div id="nav-item">
+          Synergy
+          <ArrowBorder :RightPlace="false" :isGrowAnimtion="true" />
+
+        </div>
+      </RouterLink> -->
+
+
+      <!-- <RouterLink to="/#intro-box">
+
+        <div id="nav-item">
+          Journal
+          <ArrowBorder :RightPlace="false" :isGrowAnimtion="true" />
+
+        </div>
+      </RouterLink> -->
+
+
+      <RouterLink to="/#contact-box">
+
+        <div id="nav-item">
+          Nexus
+          <ArrowBorder :RightPlace="false" :isGrowAnimtion="true" />
+
+        </div>
+      </RouterLink>
+
     </div>
 
 
@@ -52,8 +75,12 @@ import ArrowBorder from './ArrowBorder.vue';
 </template>
 
 <style scoped>
+a {
 
-#nav-item{
+  text-decoration: none;
+}
+
+#nav-item {
   width: max-content;
   transition: 400ms all ease-in-out;
   color: var(--font-color-grey);
@@ -64,23 +91,23 @@ import ArrowBorder from './ArrowBorder.vue';
   transition: all ease-in-out 200ms;
 }
 
-#nav-item:hover >  div{
+#nav-item:hover>div {
   display: block;
 }
 
-#nav-item:hover{
+#nav-item:hover {
   color: whitesmoke;
   padding-right: 10px;
   font-weight: bold;
 }
 
-#nav-item > div {
+#nav-item>div {
   display: none;
 }
 
 
 
-#nav-item-box{
+#nav-item-box {
   height: 100%;
   width: 100%;
   /* border: 1px solid red; */

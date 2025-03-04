@@ -1,5 +1,7 @@
 <script setup>
 import flow from "../assets/image/FollowUp/flow-home.png";
+import { RouterLink} from 'vue-router'
+
 </script>
 
 <template>
@@ -14,7 +16,10 @@ import flow from "../assets/image/FollowUp/flow-home.png";
     <!-- <MoveNextHome /> -->
 
     <div id="hb-flow">
-      <img :src="flow" alt="">
+      <RouterLink to="/#intro-box">
+
+        <img :src="flow" alt="">
+      </RouterLink>
     </div>
 
   </div>

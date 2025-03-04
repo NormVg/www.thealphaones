@@ -15,7 +15,10 @@ const NavBarStore = useNavBarStore()
 </script>
 
 <template>
-  <NavBar v-if="NavBarStore.isNavBar" />
+      <Transition>
+
+    <NavBar v-if="NavBarStore.isNavBar" />
+  </Transition>
   <Header />
   <Hero />
   <Intro/>

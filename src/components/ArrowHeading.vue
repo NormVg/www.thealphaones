@@ -37,7 +37,7 @@ const prop = defineProps({
       <div id="arrow-box">
         <ArrowBorder />
       </div>
-      <div id="arrow-text"> {{ prop.sub }}</div>
+      <div id="arrow-text" > {{ prop.sub }}</div>
 
     </div>
   </div>

@@ -101,7 +101,10 @@ const  ProgStore = useProgStore()
 
 
     <div id="hb-flow">
-      <img :src="flow" alt="">
+      <RouterLink to="/#contact-box">
+
+        <img :src="flow" alt="">
+      </RouterLink>
     </div>
 
   </div>

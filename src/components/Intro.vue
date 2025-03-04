@@ -37,7 +37,10 @@ import ArrowHeading from './ArrowHeading.vue';
 
 
     <div id="hb-flow">
-      <img :src="flow" alt="">
+      <RouterLink to="/#aura-box">
+
+        <img :src="flow" alt="">
+      </RouterLink>
     </div>
 
   </div>
@@ -107,7 +110,7 @@ import ArrowHeading from './ArrowHeading.vue';
   width: 60vw;
   margin-top: 15px;
   margin-left: 30px;
-  animation: slideInFromLeft   750ms forwards;
+  animation: slideInFromLeft 750ms forwards;
 }
 
 #intro-bt-box {
@@ -116,7 +119,7 @@ import ArrowHeading from './ArrowHeading.vue';
   align-items: center;
   gap: 80px;
   margin-top: 20px;
-  animation: animationOpacity 3000ms forwards ;
+  animation: animationOpacity 3000ms forwards;
 
 }
 
@@ -167,4 +170,3 @@ import ArrowHeading from './ArrowHeading.vue';
 
 }
 </style>
-

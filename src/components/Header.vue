@@ -1,6 +1,6 @@
 <script setup>
-// import logo from "../assets/logo.svg";
 import { useNavBarStore } from "@/stores/NavBarStore";
+// import logo from "../assets/logo.svg";
 import logo from "../assets/image/ico.png";
 
 import NavLogo from "../assets/image/nav-logo.svg";
@@ -95,6 +95,7 @@ const ToggleNavBar = () => {
  z-index: 12;
 }
 
+
 #header-logo , #nav-toggle {
  display: flex;
  justify-content: center;
@@ -104,5 +105,9 @@ const ToggleNavBar = () => {
 
 #header-box img {
   height: 40px;
+}
+
+#header-logo img{
+  height: 30px;
 }
 </style>
