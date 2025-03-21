@@ -47,6 +47,7 @@ const prop = defineProps({
     transition: 350ms ease-in-out all;
 
 
+
 }
 
 #nex-ments:hover{

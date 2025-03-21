@@ -89,12 +89,14 @@ import flowerRibbon from "../assets/image/flow-bar.png"
   animation: scrollDown 10s linear infinite;
   width: 100%;
   /* Adjust width as needed */
+  z-index: -1;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   opacity: .6;
+  /* border: 1px solid red; */
 }
 
 

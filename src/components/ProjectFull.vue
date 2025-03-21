@@ -28,6 +28,10 @@ const ProgStore = useProgStore()
 </template>
 
 <style scoped>
+#prog-full-box-con{
+  color: rgb(186, 186, 186);
+}
+
 #prog-full-box{
 
     display:  flex;
@@ -42,7 +46,9 @@ const ProgStore = useProgStore()
 } */
 
 #prog-full-box-thumb{
+  object-fit:contain;
     width: 35vw;
+    aspect-ratio: 350 / 210;
     border: 1px solid gray;
     border-radius: 15px;
 }
@@ -65,7 +71,7 @@ const ProgStore = useProgStore()
 #prog-full-box-title a{
     transition: 400ms ease-in-out all;
     text-decoration: none;
-    color: rgb(85, 85, 85);
+    color: rgb(215, 215, 215);
     margin-left: 15px;
 }
 

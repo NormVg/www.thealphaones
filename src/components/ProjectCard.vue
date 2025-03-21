@@ -67,6 +67,10 @@ const setFull = () =>{
 </template>
 
 <style scoped>
+#prog-card-info{
+  color: rgb(154, 154, 154);
+}
+
 #project-card{
     width: 350px;
     height: 210px;

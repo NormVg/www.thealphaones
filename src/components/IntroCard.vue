@@ -41,20 +41,22 @@ const prop = defineProps({
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
-    width: 220px;
+    width: 250px;
     text-align: center;
     color: #7F7F7F;
-    height: 285px;
+    /* height: 285px; */
+    min-height: 100%;
     font-size: 15px;
+  /* height: auto; */
 }
 
 #bt-box-up img,#bt-box-down img{
-    width: 220px;
+    width: 250px;
 
 }
 
 #bt-box-down,#bt-box-up{
-    width: 220px;
+    width: 250px;
     /* border: 1px solid peru; */
 }
 

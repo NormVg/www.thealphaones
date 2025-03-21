@@ -9,14 +9,9 @@ import roseBar from "../assets/image/rose-bar-ver.png"
   <div id='aura-list-box'>
     <img :src="roseBar" alt="" />
     <ul>
-      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aperiam quaerat velit voluptatibus eaque
-        minima corrupti aliquid, quam veniam ratione eveniet et illo facilis voluptatum laboriosam tempore labore qui
-        numquam.</li>
-      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ex nemo fugit repellat officia magnam, quis,
-        id excepturi impedit, nobis harum quod. Ducimus nostrum voluptatem ipsum natus, magni assumenda numquam.</li>
-      <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus temporibus cum molestiae aliquam labore
-        odio doloribus illum reiciendis voluptates, autem earum laborum eos! Optio fuga officia fugiat repellat sapiente
-        eaque.</li>
+      <li> <span class="white-bold" >A Unified App Ecosystem & Workspaces –</span> A seamlessly connected environment where all your tools and workflows come together, ensuring effortless productivity and collaboration.</li>
+      <li><span class="white-bold" >An AI That’s More Than Just a Robot –</span> A personal assistant that learns, adapts, and automates intelligently—helping you focus on what truly matters while handling the rest.</li>
+      <li><span class="white-bold" >Future-Ready & Fully Customizable – </span> Designed for deep personalization and automation, empowering you to create a workspace that fits your unique needs and enhances your daily life.</li>
     </ul>
     <img :src="roseBar" alt="" />
   </div>
@@ -24,6 +19,12 @@ import roseBar from "../assets/image/rose-bar-ver.png"
 
 
 <style scoped>
+
+.white-bold{
+  font-weight: 500;
+  color: white;
+}
+
 ul {
   list-style-image: url("../assets/list-img.png");
   list-style-position: outside;
