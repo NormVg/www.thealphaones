@@ -129,7 +129,7 @@ a {
   right: 0%;
   top: 0%;
   z-index: 11;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.72);
   background-image: url("../assets/image/circle-bg.png");
   background-repeat: no-repeat;
   background-size: 450px;
@@ -149,6 +149,12 @@ a {
     background-position-y: 400px;
 
   }
+
+  #nav-item {
+
+  font-size: 30px;
+
+}
 
 }
 </style>

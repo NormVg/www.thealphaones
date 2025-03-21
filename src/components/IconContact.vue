@@ -54,4 +54,16 @@ const prop = defineProps({
     color: whitesmoke;
     margin-left: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #nex-ments-text{
+    margin-left: 5px;
+    font-size: 20px;
+    transition: 350ms ease-in-out all;
+}
+#nex-ments-img{
+    width: 25px;
+}
+}
 </style>
