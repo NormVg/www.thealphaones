@@ -98,9 +98,12 @@ const prop = defineProps({
 
 
 #sub-head {
-  font-size: 40px;
+  font-size: 32px;
 }
 
+#arrow-text {
+  font-size: 12px;
+}
 
 
 

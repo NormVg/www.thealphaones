@@ -21,7 +21,7 @@ import ArrowHeading from "./ArrowHeading.vue";
     />
 
     <div id="intro-para">
-      At TheAlphaOnes, we are more than just a team—we are a movement driven by
+      At TheAlphaOnes, we are more than just a team we are a movement driven by
       innovation, passion, and a deep love for technology. Our goal is to create
       solutions that enhance lives, spark innovation, and push the boundaries of
       what’s possible.
@@ -128,7 +128,7 @@ import ArrowHeading from "./ArrowHeading.vue";
 
   #heading-intro {
     width: 90vw;
-    font-size: 38px;
+    font-size: 30px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -138,7 +138,7 @@ import ArrowHeading from "./ArrowHeading.vue";
     font-style: normal;
 
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     opacity: 80%;
   }
 
@@ -156,9 +156,9 @@ import ArrowHeading from "./ArrowHeading.vue";
 
   #intro-para {
     color: #bdbdbd;
-    font-size: 18px;
+    font-size: 14px;
     width: 90vw;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-left: 5px;
   }
 }

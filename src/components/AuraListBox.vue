@@ -84,5 +84,10 @@ li {
     width: 95vw;
   }
 
+  li {
+ font-size: 14px;
+}
+
+
 }
 </style>

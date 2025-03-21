@@ -75,16 +75,17 @@ import { RouterLink} from 'vue-router'
   /* For mobile phones: */
 
   #hero-box {
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    margin: auto;
     margin-top: 100px;
 
     height: 70vh;
 
-
+    /* border: 1px solid red; */
   }
 
   #hb-n {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
 

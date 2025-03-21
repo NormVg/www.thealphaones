@@ -53,6 +53,7 @@ const prop = defineProps({
 #bt-box-up img,#bt-box-down img{
     width: 250px;
 
+
 }
 
 #bt-box-down,#bt-box-up{
@@ -85,11 +86,12 @@ const prop = defineProps({
     text-align: center;
     color: #7F7F7F;
     height: 300px;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 #bt-box-up img,#bt-box-down img{
     width: 270px;
+    opacity: .8;
 
 }
 

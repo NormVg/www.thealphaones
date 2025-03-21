@@ -10,11 +10,11 @@ import flow from "../assets/image/FollowUp/flow-aura.png"
     <div id="aura-box-title-box">
 
       <ArrowHeading title="Aura LifeStyle" sub="Sometimes you’ve gotta run before you can walk." BorderWidth="240px"
-        PhoneBorderWidth="300px" />
+        PhoneBorderWidth="290px" />
 
     </div>
     <div id="aura-para">
-      AURA is more than just a workspace—it’s a seamlessly automated, unified, and highly integrated ecosystem designed for the future. With an AI assistant at its core, it adapts to your needs, enhances productivity, and simplifies complexity.
+      AURA is more than just a workspace it’s a seamlessly automated, unified, and highly integrated ecosystem designed for the future. With an AI assistant at its core, it adapts to your needs, enhances productivity, and simplifies complexity.
     </div>
 
 
@@ -62,5 +62,25 @@ import flow from "../assets/image/FollowUp/flow-aura.png"
 #aura-box {
   height: 100vh;
   margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #aura-box {
+  height: 100vh;
+  margin-top: 50px;
+  margin-bottom: 40vh;
+}
+
+
+#aura-para {
+    color: #bdbdbd;
+    font-size: 14px;
+    width: 90vw;
+    margin-top: 30px;
+    margin-left: 5px;
+
+  }
 }
 </style>
