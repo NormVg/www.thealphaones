@@ -4,7 +4,7 @@ import { Analytics } from '@vercel/analytics/vue';
 </script>
 
 <template>
-  <Analytics />g
+  <Analytics />
 
   <RouterView />
 </template>
